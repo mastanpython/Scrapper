@@ -1,0 +1,47 @@
+{
+    "input_json_file": "Skymarkoutput.json",
+    "output_excel_sitecore": "sitecore_mappings.xlsx",
+    "general_mappings": {
+        "section": "section"
+    },
+    "sitecore_mappings": {
+        "Header Medium with Description": {
+            "Content Title": "Content Title",
+            "Subtitle": "Subtitle",
+            "Description": "Content Description",
+            "Image": "Background Image",
+			"Background Image":"Background Image",
+            "LinkText": "Link Text",
+            "Link": "Link"
+        },
+        "Sub Item: Page Overview Item": {
+            "Title": "Title",
+            "Description": "Description",
+            "Link": "Link",
+            "Image": "Image"
+        },
+        "Image Text Content": {
+            "Title": "Title",
+            "Text": "Text",
+            "CTAText": "CTA Text",
+            "CTALink": "CTA Link",
+            "Image": "Image",
+            "ExternalImage": "External Image",
+            "DirectDownloadLink": "Direct Download Link",
+            "DirectDownloadLinkText": "Direct Download Link Text",
+            "YoutubeVideoID": "Youtube Video ID"
+        },
+        "Insight Rich Text": {
+            "ContentTitle": "Content Title",
+            "Eyebrow": "Eyebrow",
+            "ContentDescription": "Content Description"
+        }
+    },
+    "field_mappings": {
+        "p": "Description",
+        "ul": "Description",
+        "table": "Description",
+		"strong":"Description"
+    },
+    "sitecore_subsequent_section": "Sub Item: Page Overview Item"
+}
